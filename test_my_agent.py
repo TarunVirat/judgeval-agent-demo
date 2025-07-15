@@ -54,4 +54,5 @@ run = EvaluationRun(
 )
 
 # ✅ Submit to Judgment Labs
-results = run_eval(run)
+results = run_eval(run, override=True)
+
